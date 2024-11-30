@@ -1,4 +1,4 @@
 /* Smooth Scrolling */
 html {
-  smooth-scrolling: smooth;
+  scroll-behavior: smooth;
 }
