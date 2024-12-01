@@ -45,9 +45,18 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-a {
+a[href]:visited {
   color: #161616;
   text-decoration: none;
+  font-style: italic;
+}
+
+a[href]:hover {
+  text-decoration: underline;
+}
+
+a[href]:active {
+  background: var(--color-light-grey);
 }
 
 .visually-hidden {
@@ -75,16 +84,4 @@ a {
   font-family: var(--font-family-title);
   text-transform: var(--section-tagline-transform);
   font-weight: var(--font-weight-bold);
-}
-
-a[href]:visited {
-  font-style: italic;
-}
-
-a[href]:hover {
-  text-decoration: underline;
-}
-
-a[href]:active {
-  background: var(--color-light-grey);
 }
