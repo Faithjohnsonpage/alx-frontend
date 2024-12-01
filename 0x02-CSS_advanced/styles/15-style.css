@@ -2,7 +2,9 @@
 /*# sourceMappingURL=normalize.min.css.map */
 
 /* Universal Box Sizing Rule */
-* {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
