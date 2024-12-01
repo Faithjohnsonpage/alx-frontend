@@ -21,6 +21,10 @@ body {
   font-family: var(--font-family-base);
 }
 
+.section-title {
+  font-family: var(--font-family-title);
+}
+
 a {
   color: #161616;
 }
@@ -35,8 +39,4 @@ a {
 
 .section-tagline {
   color: var(--color-primary);
-}
-
-.section-title {
-  font-family: var(--font-family-title);
 }
