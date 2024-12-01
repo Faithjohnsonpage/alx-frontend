@@ -45,20 +45,20 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: var(--font-weight-bold);
 }
 
-a:any-link {
+a:link {
   color: #161616;
   text-decoration: none;
 }
 
-a:any-link:visited {
+a:visited {
   font-style: italic;
 }
 
-a:any-link:hover {
+a:hover {
   text-decoration: underline;
 }
 
-a:any-link:active {
+a:active {
   background: var(--color-light-grey);
 }
 
