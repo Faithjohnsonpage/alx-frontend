@@ -206,17 +206,9 @@ ul.row {
   Clearfix
   ========================================
 */
-.row:before,
+
 .row:after {
   content: "";
   display: table;
-}
-
-.row:after {
   clear: both;
-}
-
-.row {
-  clear: both;
-  *zoom: 1;
 }
